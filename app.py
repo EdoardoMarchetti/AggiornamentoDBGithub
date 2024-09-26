@@ -4,7 +4,7 @@ from sql_queries import *
 
 st.title('Test aggiornamento Database')
 
-st.upload_file(label='carica')
+
 
 
 uploaded_file = st.file_uploader("Choose a file")
@@ -13,9 +13,9 @@ if uploaded_file is not None:
     st.write(dataframe)
 
 
-db_path = 'sqlite:///test.db'
+db_path = 'test.db'
 engine = create_database(db_path=db_path)
-
+st.write('Engine', engine)
 
 create_table(
     engine=engine,
