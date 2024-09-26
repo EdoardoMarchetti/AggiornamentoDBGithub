@@ -1,0 +1,21 @@
+id,nome,cognome
+1,Mario,Rossi
+2,Luigi,Bianchi
+3,Giulia,Verdi
+4,Anna,Neri
+5,Paolo,Gialli
+6,Marco,Fabbri
+7,Sara,Cattaneo
+8,Francesca,Marini
+9,Giovanni,Conti
+10,Clara,Fontana
+11,Antonio,De Luca
+12,Laura,Greco
+13,Matteo,Ruggeri
+14,Elena,Ferrari
+15,Roberto,Sorrentino
+16,Silvia,Leone
+17,Valentina,Moretti
+18,Riccardo,Barbieri
+19,Sofia,Pellegrini
+20,Giorgio,Rinaldi
