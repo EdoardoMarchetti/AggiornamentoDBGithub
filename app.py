@@ -32,5 +32,6 @@ if st.button('insert'):
     insert_table(engine=engine, table_name='persone', df=dataframe)
 
 if st.button('Vedi dati'):
-    select_from(engine=engine, from_table='persone')
+    df = select_from(engine=engine, from_table='persone')
+    st.write(df)
 
